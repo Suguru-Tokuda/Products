@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		BB7DCF042B0D29BE00D70D3E /* ElectronicProductsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF032B0D29BE00D70D3E /* ElectronicProductsApp.swift */; };
-		BB7DCF062B0D29BE00D70D3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF052B0D29BE00D70D3E /* ContentView.swift */; };
 		BB7DCF082B0D29BF00D70D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7DCF072B0D29BF00D70D3E /* Assets.xcassets */; };
 		BB7DCF0B2B0D29BF00D70D3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7DCF0A2B0D29BF00D70D3E /* Preview Assets.xcassets */; };
 		BB7DCF0D2B0D29BF00D70D3E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF0C2B0D29BF00D70D3E /* Persistence.swift */; };
 		BB7DCF102B0D29BF00D70D3E /* ElectronicProducts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF0E2B0D29BF00D70D3E /* ElectronicProducts.xcdatamodeld */; };
+		BB7DCF192B0D2B3B00D70D3E /* ElectronicProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF182B0D2B3B00D70D3E /* ElectronicProduct.swift */; };
+		BB7DCF1C2B0D342100D70D3E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF1B2B0D342100D70D3E /* NetworkManager.swift */; };
+		BB7DCF202B0D349700D70D3E /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF1F2B0D349700D70D3E /* ProductGridView.swift */; };
+		BB7DCF222B0D34A600D70D3E /* ProductGridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF212B0D34A600D70D3E /* ProductGridCellView.swift */; };
+		BB7DCF252B0D354F00D70D3E /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF242B0D354F00D70D3E /* ProductViewModel.swift */; };
+		BB7DCF292B0D35DB00D70D3E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF282B0D35DB00D70D3E /* NetworkError.swift */; };
+		BB7DCF2B2B0D361E00D70D3E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF2A2B0D361E00D70D3E /* CoreDataManager.swift */; };
+		BB7DCF2D2B0D8E2200D70D3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF2C2B0D8E2200D70D3E /* Constants.swift */; };
+		BB7DCF2F2B0D8E9200D70D3E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF2E2B0D8E9200D70D3E /* ProductDetailView.swift */; };
+		BB7DCF332B0D8FC000D70D3E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF322B0D8FC000D70D3E /* PreviewData.swift */; };
+		BB7DCF352B0D8FFB00D70D3E /* ElectronicProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DCF342B0D8FFB00D70D3E /* ElectronicProductResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB7DCF002B0D29BE00D70D3E /* ElectronicProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectronicProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7DCF032B0D29BE00D70D3E /* ElectronicProductsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicProductsApp.swift; sourceTree = "<group>"; };
-		BB7DCF052B0D29BE00D70D3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB7DCF072B0D29BF00D70D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7DCF0A2B0D29BF00D70D3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB7DCF0C2B0D29BF00D70D3E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BB7DCF0F2B0D29BF00D70D3E /* ElectronicProducts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElectronicProducts.xcdatamodel; sourceTree = "<group>"; };
+		BB7DCF182B0D2B3B00D70D3E /* ElectronicProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicProduct.swift; sourceTree = "<group>"; };
+		BB7DCF1B2B0D342100D70D3E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BB7DCF1F2B0D349700D70D3E /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
+		BB7DCF212B0D34A600D70D3E /* ProductGridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridCellView.swift; sourceTree = "<group>"; };
+		BB7DCF242B0D354F00D70D3E /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		BB7DCF282B0D35DB00D70D3E /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		BB7DCF2A2B0D361E00D70D3E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BB7DCF2C2B0D8E2200D70D3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB7DCF2E2B0D8E9200D70D3E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		BB7DCF322B0D8FC000D70D3E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		BB7DCF342B0D8FFB00D70D3E /* ElectronicProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicProductResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +75,13 @@
 		BB7DCF022B0D29BE00D70D3E /* ElectronicProducts */ = {
 			isa = PBXGroup;
 			children = (
+				BB7DCF272B0D35DB00D70D3E /* Enums */,
+				BB7DCF1E2B0D343100D70D3E /* ViewModels */,
+				BB7DCF1D2B0D342C00D70D3E /* Views */,
+				BB7DCF1A2B0D342100D70D3E /* Utilities */,
+				BB7DCF172B0D2B2800D70D3E /* Model */,
+				BB7DCF162B0D2B2200D70D3E /* CoreData */,
 				BB7DCF032B0D29BE00D70D3E /* ElectronicProductsApp.swift */,
-				BB7DCF052B0D29BE00D70D3E /* ContentView.swift */,
 				BB7DCF072B0D29BF00D70D3E /* Assets.xcassets */,
 				BB7DCF0C2B0D29BF00D70D3E /* Persistence.swift */,
 				BB7DCF0E2B0D29BF00D70D3E /* ElectronicProducts.xcdatamodeld */,
@@ -69,8 +94,77 @@
 			isa = PBXGroup;
 			children = (
 				BB7DCF0A2B0D29BF00D70D3E /* Preview Assets.xcassets */,
+				BB7DCF322B0D8FC000D70D3E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB7DCF162B0D2B2200D70D3E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF2A2B0D361E00D70D3E /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		BB7DCF172B0D2B2800D70D3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF182B0D2B3B00D70D3E /* ElectronicProduct.swift */,
+				BB7DCF342B0D8FFB00D70D3E /* ElectronicProductResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7DCF1A2B0D342100D70D3E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF1B2B0D342100D70D3E /* NetworkManager.swift */,
+				BB7DCF2C2B0D8E2200D70D3E /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BB7DCF1D2B0D342C00D70D3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF312B0D8E9F00D70D3E /* ProductDetailView */,
+				BB7DCF302B0D8E9600D70D3E /* ProductGridView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB7DCF1E2B0D343100D70D3E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF242B0D354F00D70D3E /* ProductViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB7DCF272B0D35DB00D70D3E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF282B0D35DB00D70D3E /* NetworkError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BB7DCF302B0D8E9600D70D3E /* ProductGridView */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF1F2B0D349700D70D3E /* ProductGridView.swift */,
+				BB7DCF212B0D34A600D70D3E /* ProductGridCellView.swift */,
+			);
+			path = ProductGridView;
+			sourceTree = "<group>";
+		};
+		BB7DCF312B0D8E9F00D70D3E /* ProductDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DCF2E2B0D8E9200D70D3E /* ProductDetailView.swift */,
+			);
+			path = ProductDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7DCF1C2B0D342100D70D3E /* NetworkManager.swift in Sources */,
 				BB7DCF0D2B0D29BF00D70D3E /* Persistence.swift in Sources */,
-				BB7DCF062B0D29BE00D70D3E /* ContentView.swift in Sources */,
 				BB7DCF042B0D29BE00D70D3E /* ElectronicProductsApp.swift in Sources */,
+				BB7DCF332B0D8FC000D70D3E /* PreviewData.swift in Sources */,
 				BB7DCF102B0D29BF00D70D3E /* ElectronicProducts.xcdatamodeld in Sources */,
+				BB7DCF252B0D354F00D70D3E /* ProductViewModel.swift in Sources */,
+				BB7DCF202B0D349700D70D3E /* ProductGridView.swift in Sources */,
+				BB7DCF222B0D34A600D70D3E /* ProductGridCellView.swift in Sources */,
+				BB7DCF352B0D8FFB00D70D3E /* ElectronicProductResponse.swift in Sources */,
+				BB7DCF192B0D2B3B00D70D3E /* ElectronicProduct.swift in Sources */,
+				BB7DCF292B0D35DB00D70D3E /* NetworkError.swift in Sources */,
+				BB7DCF2F2B0D8E9200D70D3E /* ProductDetailView.swift in Sources */,
+				BB7DCF2B2B0D361E00D70D3E /* CoreDataManager.swift in Sources */,
+				BB7DCF2D2B0D8E2200D70D3E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

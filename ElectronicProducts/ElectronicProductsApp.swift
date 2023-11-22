@@ -13,7 +13,7 @@ struct ElectronicProductsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductGridView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
